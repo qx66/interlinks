@@ -12,4 +12,4 @@ COPY --from=builder /go/src/bin /app
 
 WORKDIR /app
 
-CMD ["/app/mysql-meilisearch-linux"]
+CMD ["/app/interlinks"]
